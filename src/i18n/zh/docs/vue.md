@@ -23,7 +23,9 @@ Vue.js 是一个渐进式、增量采用、在 web 环境构建用户界面的 J
 ```vue
 // app.vue
 <template lang="pug">
-  .container Hello {{bundler}}
+  <div class='.container'> 
+    Hello {{bundler}}
+  </div>
 </template>
 
 <script lang="ts">
